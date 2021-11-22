@@ -1,7 +1,7 @@
 import 'dart:async';
 
 void main(List<String> arguments) {
-  //Future
+  //Future`
   //Future.value()
   void testFuture() async {
     var future = await Future.value(1);

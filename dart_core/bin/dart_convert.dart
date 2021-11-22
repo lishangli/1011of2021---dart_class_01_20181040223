@@ -79,6 +79,7 @@ Future<void> main(List<String> arguments) async {
 
   var lines = utf8.decoder.bind(stdin).transform(const LineSplitter());
   try {
+    print("输入：");
     await for (final line in lines) {
       print('Got ${line.length} characters from stream');
     }
